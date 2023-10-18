@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIFT DETOX</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<style>
+
+  body{
+  
+      background: linear-gradient(-90deg,lightblue,black);
+  }
+  
+  .text1{
+  
+      font-size: 35px;
+      text-align: center;
+      color: azure;
+  }
+  
+  .p1{
+      text-align: center;
+      color: azure;
+      font-size: 25px;
+  }
+  
+  :root{
+  
+      --colorYellow:#ff1ef1;
+      --colorRed:#ff0000;
+  
+  }
+  
+  .span{
+  
+      animation-name: efeitotexto;
+      animation-duration: 3s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+  
+  }
+  
+  
+  
+  @keyframes efeitotexto{
+  0% , 50%{
+  
+      text-shadow: 0 0 12px var(--colorYellow), 0 0 50px var(--colorYellow), 0 0 100px var(--colorYellow);
+  
+  }
+  80% , 90%  {
+  
+     
+      text-shadow:  0 0 12px var(--colorRed), 0 0 50px var(--colorRed), 0 0 100px var(--colorRed);
+  }
+  
+  }
+  .videoalingn{
+  
+      margin-left: 490px;
+      margin-top: -20px;
+      width: 450px;
+      height: 500px;
+  }
+  
+  .divbot{
+  
+      margin-left: 615px;
+      
+  
+  }
+  .botao1-as-link {
+  
+  font-size: 25px;
+  background-color: #6feb0a;
+  color:#0c0b0b ;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+  }
+  
+ 
+  
+  @media(max-width:450px){
+      .text1{
+          font-size: 20px;
+         margin-right: 35px;
+      }
+      .p1{
+          font-size: 15px;
+          margin-right: 40px;
+      }
+      .videoalingn{
+      margin-left: -2px;
+      margin-top: -5px;
+      width: 350px;
+      height: 250px;
+  
+      }
+      .divbot{
+  
+      margin-left: 80px;
+  
+  
+  }
+  }
+   @media (max-width:320px){
+      body{
+  
+          background: linear-gradient(-180deg,black, black);
+          margin-left: 80px;
+         
+      }
+     
+      .text1{
+          margin-right: 15px;
+          font-size: 20px;
+      }
+  
+      .p1{
+          margin-right: 10px;
+      }
+      
+  }
+  
+   @media(max-width:360px){
+  
+    body{
+      background: linear-gradient(-180deg, black, black);
+      
+      
+    }
+    .text1{
+      margin-left: 60px;
+    }
+  
+    .p1{
+      
+      margin-left: 50px;
+  
+    }
+    .videoalingn{
+      margin-left: -20px;
+      margin-top: -5px;
+      width: 350px;
+      height: 250px;
+  
+      }
+      .divbot{
+  
+      margin-left: 62px;
+  
+  
+  }
+   
+  }
+  
+  @media(max-width:412px){
+  
+      .text1{
+          margin-left: 10px;
+      }
+  
+      .p1{
+  
+          margin-left:5px ;
+      }
+  }
+  
+  
+  </style>
+  
+  
+  
+  <script>
+  
+  
+      function mostrarBotao(){
+      setTimeout(function(){
+      
+          document.getElementById("divDoBotao").style.display="block";
+          
+      },30000);
+  
+   }
+    
+   mostrarBotao();
+  
+  
+  </script>
+
+
+</head>
+
+<body>
+
+    <div>
+
+     <h1 class="text1">
+        Você está pronta para transformar sua jornada de perda de peso?
+        <span class="span">Desafio -8kg em 30 dias</span> de forma saudável e natural!</h1>
+
+     <p class="p1">Junte-se a milhares de pessoas que já alcançaram o sucesso na perda de peso com o Lift Detox<br>Não espere mais para transformar sua vida, Levante-se, supere seus desafios e abrace a transformação!</p>
+  </div>
+
+  
+    
+    <div>
+      <video class="videoalingn" autoplay muted controls>
+        <source src="detox-original.mp4"type="video/mp4">
+        </video>
+    </div>
+    
+
+    
+
+
+    
+    <div id ="divDoBotao" style="display: none;" class="divbot">
+
+        <button class="botao1-as-link">
+            <a href="https://liftdetoxblack.netlify.app/" target="_blank">
+                Experimente Já!
+                </a>
+      
+
+        </div>
+        
+
+   
+    
+
+  
+
+
+  
+
+</body>
+</html>
+
+
+   
+         
